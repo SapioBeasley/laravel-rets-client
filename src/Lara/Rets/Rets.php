@@ -22,11 +22,11 @@ class Rets {
 
 	public function __construct()
 	{
-		$this->login_url = Config::get('rets.login_url');
-		$this->username  = Config::get('rets.username');
-		$this->password  = Config::get('rets.password');
-		$this->headers   = Config::get('rets.headers');
-		$this->debug     = Config::get('rets.debug');
+		$this->login_url = Config::get('rets::login_url');
+		$this->username  = Config::get('rets::username');
+		$this->password  = Config::get('rets::password');
+		$this->headers   = Config::get('rets::headers');
+		$this->debug     = Config::get('rets::debug');
 		$this->limit     = 100;
 		$this->offset    = 1;
 		$this->client();
@@ -41,7 +41,7 @@ class Rets {
 		if($this->debug)
 		{
 			$this->rets->SetParam('debug_mode', true);
-			$this->rets->SetParam("debug_file", Config::get('rets.debug_log'));
+			$this->rets->SetParam("debug_file", Config::get('rets::debug_log'));
 		}
 
 		//Headers
