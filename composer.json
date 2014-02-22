@@ -1,0 +1,21 @@
+{
+    "name": "lara/rets",
+    "description": "",
+    "authors": [
+        {
+            "name": "Jose Lara",
+            "email": "jose.lara@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4~",
+        "troydavisson/phrets": "1.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Lara\\Rets": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
