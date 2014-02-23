@@ -152,6 +152,7 @@ class Rets {
 
 	public function clearQuery()
 	{
+		$this->formatQuery = [];
 		return $this->rets->FreeResult($this->search);
 	}
 
