@@ -1,6 +1,6 @@
 ## RETS client for Laravel
 
-###This package is DEPRECATED, please check our [PHRETS](https://github.com/troydavisson/PHRETS)
+###This package is DEPRECATED, please check out [PHRETS](https://github.com/troydavisson/PHRETS)
 
 RETS client for Laravel using *PHRETS*.
 
